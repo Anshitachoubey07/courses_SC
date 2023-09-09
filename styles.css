@@ -1,0 +1,194 @@
+body{
+    font-family: 'Instrument Sans', sans-serif;
+    color: rgb(77, 77, 77);
+    font-size: 1.2rem;
+}
+
+h1,h2{
+    font-family: 'Alfa Slab One', cursive;
+  color: rgb(29, 97, 88);  
+}
+
+h3{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(33, 48, 46);  
+}
+
+button{
+    background-color: rgb(2, 181, 252);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+a {
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: large;
+    color: rgb(61, 58, 58);
+    border-radius: 5px;
+}
+
+
+/* title */
+#title{
+    background-color: #eaeaea;
+    height: 100%;
+    position: static;
+    padding-bottom: 80px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar{
+    background-color: #eaeaea;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 5px #394867;
+    /* padding-right: 550px; */
+}
+
+.logo-img {
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    /* position: relative; */
+}
+
+.logo {
+    background-color: #eaeaea;
+    width: 100px;
+    height: 50px;
+    /* position: fixed; */
+}
+
+.navlist {
+    padding-right: 40px;
+    background-color: #eaeaea;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navitems {
+    display: inline-block;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+/* course */
+
+/* .j3{
+    color: black;
+} */
+
+.course_begin{
+    background-color: #F0F0F0;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+.course_intro{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10%;
+    color: black;
+}
+
+.course_container{
+    background-color: rgb(207, 207, 207);
+    border-radius: 10%;
+    display: inline-block;
+    padding: 50px;
+    margin: 50px;
+}
+
+.course-img{
+    border-radius: 20%;
+    width: 400px;
+    height: 400px;
+}
+
+.prize-tag{
+    font-size: 1.5rem;
+}
+
+/* .course_container:hover{
+    background-color: black;
+} */
+
+
+/* footer */
+/* .footer{
+    padding: 20px 0 0 20px;
+    background-color: #eaeaea;
+}
+
+.logo-footer{
+    display: inline-block;
+    position: absolute;
+}
+
+.footer-img{
+    display: inline-block;
+}
+
+.address{
+    margin-left: 35%;
+    width: 25%;
+    display: inline-block;
+}
+
+.info-footer{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+
+.lower{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* contact */
+/* .container{
+    padding-top: 100px;
+    padding-left: 20%;
+    margin: 20px;
+}
+
+.image-contact{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.bg-primary {
+    background-color: #4b6e65!important;
+}
+
+.buttono{
+    text-align: center;
+    padding: 4px;
+    background: #4b6e65;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+} */ 
+
+
+@media screen and (max-width: 1326px){
+    .course_container{
+        display: block;
+        padding-left: 20%;
+    }
+}
