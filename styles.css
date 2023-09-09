@@ -187,6 +187,58 @@ a:hover {
 
 
 @media screen and (max-width: 1326px){
+
+    
+    .hamburger{
+        display: inline-block;
+    }
+
+    .navlist {
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+        display: none;
+    }
+
+    .navitems1 {
+        padding-bottom: 10px;
+    }
+
+    /* Style the navigation menu */
+
+.hamburger{
+    padding-right: 25px;
+}    
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(80, 80, 80);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+    
     .course_container{
         display: block;
         padding-left: 20%;
