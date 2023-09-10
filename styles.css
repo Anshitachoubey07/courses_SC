@@ -26,10 +26,21 @@ a {
     text-decoration: none;
 }
 
+
+/* change */
+a.cost{
+    font-size: 2rem;
+}
+
 a:hover {
     font-size: large;
     color: rgb(61, 58, 58);
     border-radius: 5px;
+}
+
+a.cost:hover{
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 
@@ -117,6 +128,27 @@ a:hover {
     font-size: 1.5rem;
 }
 
+/* courses.html */
+.courses-define{
+    padding-top: 100px;
+}
+
+.coursedesc{
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+.heading{
+    display: inline;
+}
+
+.cost{
+    display: inline-block;
+    float: right;
+}
+
+
 /* .course_container:hover{
     background-color: black;
 } */
@@ -188,7 +220,6 @@ a:hover {
 
 @media screen and (max-width: 1326px){
 
-    
     .hamburger{
         display: inline-block;
     }
@@ -238,7 +269,9 @@ a:hover {
     top: 0;
   }
 
-    
+
+
+
     .course_container{
         display: block;
         padding-left: 20%;
